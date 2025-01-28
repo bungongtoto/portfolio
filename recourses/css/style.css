@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.header-top {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+
+nav {
+    width: 30%;
+}
+
+nav ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    position: relative;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out;
+
+}
+
+nav ul li a::after {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: blue;
+    transition: width 0.3s ease-in-out;
+
+}
+
+nav li a:hover {
+    color: blue;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}

@@ -2,6 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
 .header-top {
     display: flex;
     width: 100%;
@@ -11,7 +20,7 @@ html {
 }
 
 .header-bottom {
-    width: 80%;
+    width: 75%;
     height: 70vh;
     margin: 3% auto;
     display: flex;
@@ -91,7 +100,28 @@ nav ul li a:hover::after {
     font-weight: bolder ;
 }
 
-#portfolio-photo {
-    height: 100%;
+.portfolio-photo {
+    height: 650px;
     width: auto;
+}
+
+
+main {
+    margin: 3% auto;
+    width: 75%;
+}
+
+section {
+    margin-top: 150px;
+}
+
+.about-me-sub {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-me-sub article {
+    width: 50%;
 }

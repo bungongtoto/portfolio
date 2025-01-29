@@ -5,12 +5,18 @@ html {
 .header-top {
     display: flex;
     width: 100%;
-    height: 20%;
+    height: 10vh;
     justify-content: space-around;
     align-items: baseline;
 }
 
-
+.header-bottom {
+    width: 80%;
+    height: 70vh;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-around;
+}
 
 nav {
     width: 30%;
@@ -58,4 +64,34 @@ nav li a:hover {
 
 nav ul li a:hover::after {
     width: 100%;
+}
+
+.banner-left, .banner-right {
+    width: 20%;
+    height: 100%;
+}
+
+.connect-button {
+    cursor: pointer;
+    font-size: 2rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    text-align: center;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.connect-button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.banner-text{
+    font-size: 5rem;
+    font-weight: bolder ;
+}
+
+#portfolio-photo {
+    height: 100%;
+    width: auto;
 }

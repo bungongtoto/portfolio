@@ -35,6 +35,10 @@ nav {
     width: 30%;
 }
 
+.short-width {
+    width: 15%;
+}
+
 nav ul {
     width: 100%;
     padding: 0;
@@ -190,6 +194,7 @@ footer {
     grid-auto-rows: 650px;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .project-container {
@@ -225,7 +230,7 @@ footer {
 }
 
 
-#categories, #project-list {
+#categories {
     margin-top: 0;
 }
 
@@ -251,3 +256,9 @@ footer {
     background-color: blue;
     border-color: white;
 }
+
+/* project view styles */
+#overview {
+    width: 100%;
+}
+

@@ -115,6 +115,15 @@ section {
     margin-top: 150px;
 }
 
+.section-photo {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+}
+
+.section-photo.inview {
+    filter: grayscale(0%);
+}
+
 .about-me-sub {
     width: 100%;
     display: flex;
@@ -125,3 +134,19 @@ section {
 .about-me-sub article {
     width: 50%;
 }
+
+.skill-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.skill {
+    width: 170px;
+    height: 180px;
+    margin: 30px;
+}
+
+

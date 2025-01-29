@@ -149,4 +149,28 @@ section {
     margin: 30px;
 }
 
+.icon{
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+}
 
+.icon:hover {
+    color: blue;
+    background-color: white;
+}
+
+.contact {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}

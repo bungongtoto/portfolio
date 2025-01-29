@@ -11,6 +11,10 @@ p {
     text-align: justify;
 }
 
+button {
+    border-color: gray;
+}
+
 .header-top {
     display: flex;
     width: 100%;
@@ -173,4 +177,77 @@ footer {
     align-items: center;
     background-color: black;
     color: white;
+}
+
+
+/* project styles */
+#project-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 650x);
+    grid-auto-flow: row;
+    grid-auto-rows: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container {
+    width: 500px;
+    height: 650px;
+    align-self: center;
+    justify-self: center;
+}
+
+.project-container img {
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.project-description {
+    font-size: 1.1rem;
+}
+
+.project-button {
+    font-size: 1.2rem;
+    padding: 5px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.project-button:hover {
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+
+#categories, #project-list {
+    margin-top: 0;
+}
+
+#categories ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#categories ul a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 100px;
+}
+
+#categories ul a:hover {
+    color: white;
+    background-color: blue;
+    border-color: white;
 }

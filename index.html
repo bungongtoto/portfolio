@@ -7,6 +7,7 @@
     <title>Kingsley Ndzi Bungong Portfolio</title>
     <link rel="stylesheet" href="./recourses/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="./recourses/script/header.js" defer></script>
     <script src="./recourses/script/main.js" defer ></script>
 </head>
 
@@ -15,7 +16,10 @@
         <div class="header-top">
             <h1>Bungong.</h1>
 
-            <nav>
+            <i id="menu" class=" fa-solid fa-bars icon"></i>
+            <i id="close" class="fa-solid fa-xmark icon"></i>
+
+            <nav id="navigator">
                 <ul>
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="./project.html">Project</a></li>
@@ -23,15 +27,17 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+
+           
         </div>
-        <div class="header-bottom">
-            <div class="banner-left">
+        <div id="header-bottom" class="header-bottom">
+            <div id="banner-left" class="banner-left">
                 <p class="banner-text">Hello, I AM</p>
             </div>
-            <img class="portfolio-photo" src="./recourses/images/portfolio-photo.jpg" alt="kingsley ndzi bungong">
-            <div class="banner-right">
+            <img id="banner-photo" class="portfolio-photo" src="./recourses/images/portfolio-photo.jpg" alt="kingsley ndzi bungong">
+            <div id="banner-right" class="banner-right">
                 <p class="banner-text">Kingsley Ndzi Bungong</p>
-                <button class="connect-button">Let's Connect</button>
+                <button id="connect-button" class="connect-button">Let's Connect</button>
             </div>
         </div>
     </header>
@@ -68,7 +74,7 @@
                     </p>
                 </article>
 
-                <img class="portfolio-photo section-photo" src="./recourses/images/about-me.jpg" alt="about me">
+                <img id="about-me-photo" class="portfolio-photo section-photo" src="./recourses/images/about-me.jpg" alt="about me">
             </div>
         </section>
 

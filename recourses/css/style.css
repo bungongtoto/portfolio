@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h2 {
     font-size: 2rem;
 }
@@ -15,6 +20,10 @@ button {
     border-color: gray;
 }
 
+header {
+    width: 100%;
+}
+
 .header-top {
     display: flex;
     width: 100%;
@@ -23,12 +32,16 @@ button {
     align-items: baseline;
 }
 
+#menu, #close {
+    display: none;
+}
+
 .header-bottom {
     width: 75%;
     height: 70vh;
     margin: 3% auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 nav {
@@ -147,14 +160,14 @@ section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
 }
 
 .skill {
     width: 170px;
     height: 180px;
-    margin: 30px;
+    margin: 20px;
 }
 
 .icon{
@@ -262,3 +275,333 @@ footer {
     width: 100%;
 }
 
+/* media query styles */
+
+@media only screen and (max-width:1540px ) {
+    #about-me-photo {
+       height: 500px;
+       width: auto;
+    }
+}
+
+@media only screen and (max-width:1245px ) {
+
+    nav {
+        width: 50%;
+    }
+    
+    .portfolio-photo {
+        height: 550px;
+        width: auto;
+    }
+
+    .banner-text {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size:1.2rem ;
+    }
+
+    .skill {
+        width: 150px;
+        height: 150px;
+    }
+
+    #about-me-photo {
+        height: 400px;
+        width: auto;
+    }
+
+    .connect-button {
+        font-size: 1.5rem;
+        width: 150px;
+        height: 150px;
+        border-radius: 150x;
+
+    }
+}
+
+@media only screen and (max-width: 955px) {
+    .header-bottom {
+        height: 55vh;
+    }
+
+
+    .portfolio-photo {
+        height: 450px;
+        width: auto;
+    }
+
+    .banner-text {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size:1rem ;
+    }
+
+    .skill {
+        width: 130px;
+        height: 130px;
+    }
+
+    #about-me-photo {
+        height: 300px;
+        width: auto;
+    }
+
+    .connect-button {
+        font-size: 1.2rem;
+        width: 100px;
+        height: 100px;
+        border-radius: 100x;
+    }
+
+    section {
+        margin-top: 100px;
+    }
+
+    .icon {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .header-bottom {
+        height: 40vh;
+    }
+
+
+    .portfolio-photo {
+        height: 350px;
+        width: auto;
+    }
+
+    .banner-text {
+        font-size: 2rem;
+    }
+
+
+    .skill {
+        width: 110px;
+        height: 110px;
+    }
+
+    #about-me-photo {
+        height: 200px;
+        width: auto;
+    }
+
+    .connect-button {
+        font-size: 1.2rem;
+        width: 100px;
+        height: 100px;
+        border-radius: 100x;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .header-top {
+        margin: 0 auto;
+        width: 75%;
+        justify-content: space-between;
+    }
+
+    .header-bottom {
+        flex-direction: column;
+        align-items: center;
+        height: 80vh;
+        width: 100%;
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+        padding: 20px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    #banner-photo {
+        height: 500px;
+        width: auto;
+    }
+
+
+    #connect-button {
+        position: relative;
+        bottom: 40px;
+    }
+
+    nav {
+        width: 150px;
+        height: 200px;
+        display: none;
+        position: absolute;
+        right: 0px;
+        top: 10vh;
+        background-color: white;
+        border: 1px solid black;
+        transition: right 0.5s ease-in-out;
+    }
+
+    nav ul {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-top: 10px;
+        border-bottom: 1px solid black;
+        width: 100%;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+    #menu{
+        display: inline-block;
+    }
+    main {
+        width: 90%;
+    }
+
+    section {
+        margin: 100px auto;
+    }
+
+    #about-me {
+        margin-top: 0;
+    }
+
+    .about-me-sub {
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .about-me-sub article {
+        width: 100%;
+    }
+
+    #about-me-photo {
+        height: 500px;
+        width: auto;
+    }
+
+    .skill {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width: 515px ) {
+
+    .header-bottom {
+        height: 70vh;
+    }
+    .banner-text {
+        font-size: 1.5rem;
+    }
+
+    #banner-photo {
+        height: 400px;
+        width: auto;
+    }
+
+    #connect-button{
+        bottom: 60px;
+    }
+
+    #about-me-photo {
+        height: 400px;
+        width: auto;
+    }
+
+    .skill {
+        width: 80px;
+        height: 80px;
+    }
+
+    .icon {
+        font-size: 1.7rem;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 380px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+    .header-bottom {
+        height: 60vh;
+    }
+    .banner-text {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    #banner-photo {
+        height: 350px;
+        width: auto;
+    }
+
+    #connect-button{
+        bottom: 50px;
+        font-size: 1rem;
+        width: 80px;
+        height: 80px;
+        border-radius: 80px;
+    }
+
+    #about-me-photo {
+        height: 300px;
+        width: auto;
+    }
+
+    .skill {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .icon {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (max-width: 275px) {
+   
+    p {
+        font-size: 0.5rem;
+    }
+
+    #banner-photo {
+        width: 80vw;
+        height: auto;
+    }
+
+    
+
+    #about-me-photo {
+        width: 80vw;
+        height: auto;
+    }
+
+    
+}

@@ -9,6 +9,7 @@
     <title>Project Title</title>
     <script src="./recourses/script/header.js" defer></script>
     <script src="./recourses/script/footer.js" defer ></script>
+    <script type="module" src="./recourses/script/projectView.js" defer ></script>
 
 </head>
 
@@ -30,54 +31,21 @@
         </div>
     </header>
     <main>
-        <p class="banner-text">Project Title</p>
+        <p id="project-title" class="banner-text"></p>
         <section id="overview">
             <div>
                 <h2>Overview</h2>
-                <p>The School Management System is a comprehensive web application designed to streamline administrative
-                    tasks and enhance communication between students, teachers, and administrators. Built using React,
-                    Redux, Node.js, Express.js, and MongoDB, the system provides an intuitive interface for managing
-                    student
-                    records, attendance, course schedules, and performance tracking. It also includes role-based access
-                    control, ensuring secure and efficient data management. The system aims to improve operational
-                    efficiency and foster a seamless learning environment.</p>
+                <p  id="project-description"></p>
+            </div>
+            <div>
+                <p>My github <a  href="https://github.com/bungongtoto" target="_blank">github link</a></p>
             </div>
 
-            <img src="./recourses/images/projects/test.png" alt="">
+            <img id="main-image">
         </section>
         <section id="features">
             <h2>Features</h2>
-            <div class="feature-container">
-                <div class="feature">
-                    <h3>Dashboard</h3>
-                    <p>The Dashboard serves as the central hub of the school management system, providing real-time
-                        insights and role-based access for administrators, teachers, students, and parents. It offers a
-                        user-friendly interface with key features such as student attendance tracking, grade overviews,
-                        upcoming assignments, and announcements. Teachers can manage class schedules, monitor student
-                        performance, and communicate with parents, while administrators have access to user management,
-                        reports, and school-wide notifications. Interactive charts and real-time analytics help
-                        visualize student performance and overall school operations. Built using React and Redux, the
-                        dashboard ensures a seamless, efficient, and responsive user experience.</p>
-                </div>
-
-                <img src="./recourses/images/projects/dashboard.jpg" alt="">
-            </div>
-
-            <div class="feature-container">
-                <div class="feature">
-                    <h3>Dashboard</h3>
-                    <p>The Dashboard serves as the central hub of the school management system, providing real-time
-                        insights and role-based access for administrators, teachers, students, and parents. It offers a
-                        user-friendly interface with key features such as student attendance tracking, grade overviews,
-                        upcoming assignments, and announcements. Teachers can manage class schedules, monitor student
-                        performance, and communicate with parents, while administrators have access to user management,
-                        reports, and school-wide notifications. Interactive charts and real-time analytics help
-                        visualize student performance and overall school operations. Built using React and Redux, the
-                        dashboard ensures a seamless, efficient, and responsive user experience.</p>
-                </div>
-
-                <img src="./recourses/images/projects/dashboard.jpg" alt="">
-            </div>
+            
 
         </section>
     </main>

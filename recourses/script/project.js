@@ -1,4 +1,3 @@
-console.log("hello")
 const viewProjectBtns = document.getElementsByClassName('project-button')
 
 

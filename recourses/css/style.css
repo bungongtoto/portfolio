@@ -2,6 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
+#information {
+    background-color: orange;
+    padding: 10px;
+    color: white;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +38,8 @@ header {
     align-items: baseline;
 }
 
-#menu, #close {
+#menu,
+#close {
     display: none;
 }
 
@@ -96,7 +103,8 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.banner-left, .banner-right {
+.banner-left,
+.banner-right {
     width: 20%;
     height: 100%;
 }
@@ -116,9 +124,9 @@ nav ul li a:hover::after {
     background-color: blue;
 }
 
-.banner-text{
+.banner-text {
     font-size: 5rem;
-    font-weight: bolder ;
+    font-weight: bolder;
 }
 
 .portfolio-photo {
@@ -170,7 +178,7 @@ section {
     margin: 20px;
 }
 
-.icon{
+.icon {
     font-size: 2.5rem;
     cursor: pointer;
     transition: color 0.5s ease-in-out;
@@ -273,7 +281,8 @@ footer {
 
 /* project view styles */
 
-.feature-container, #overview {
+.feature-container,
+#overview {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -281,26 +290,27 @@ footer {
     justify-content: center;
 }
 
-#overview img, .feature-container img{
+#overview img,
+.feature-container img {
     width: 80%;
     height: auto;
 }
 
 /* media query styles */
 
-@media only screen and (max-width:1540px ) {
+@media only screen and (max-width:1540px) {
     #about-me-photo {
-       height: 500px;
-       width: auto;
+        height: 500px;
+        width: auto;
     }
 }
 
-@media only screen and (max-width:1245px ) {
+@media only screen and (max-width:1245px) {
 
     nav {
         width: 50%;
     }
-    
+
     .portfolio-photo {
         height: 550px;
         width: auto;
@@ -311,7 +321,7 @@ footer {
     }
 
     p {
-        font-size:1.2rem ;
+        font-size: 1.2rem;
     }
 
     .skill {
@@ -337,7 +347,7 @@ footer {
     }
 
     #categories ul {
-        width: 80% ;
+        width: 80%;
     }
 }
 
@@ -357,7 +367,7 @@ footer {
     }
 
     p {
-        font-size:1rem ;
+        font-size: 1rem;
     }
 
     .skill {
@@ -386,7 +396,7 @@ footer {
     }
 
     #categories ul {
-        width: 100% ;
+        width: 100%;
     }
 
     #overview {
@@ -496,9 +506,10 @@ footer {
         text-align: center;
     }
 
-    #menu{
+    #menu {
         display: inline-block;
     }
+
     main {
         width: 90%;
     }
@@ -559,12 +570,13 @@ footer {
         margin-top: 10px;
     }
 
-    #overview img, .feature-container img{
+    #overview img,
+    .feature-container img {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 515px ) {
+@media only screen and (max-width: 515px) {
 
     main {
         width: 85%;
@@ -573,6 +585,7 @@ footer {
     .header-bottom {
         height: 70vh;
     }
+
     .banner-text {
         font-size: 1.5rem;
     }
@@ -582,7 +595,7 @@ footer {
         width: auto;
     }
 
-    #connect-button{
+    #connect-button {
         bottom: 60px;
     }
 
@@ -612,11 +625,11 @@ footer {
     #overview {
         margin-top: 40px;
     }
-    
+
 }
 
 @media only screen and (max-width: 465px) {
-   .project-container p {
+    .project-container p {
         font-size: 1rem;
     }
 
@@ -639,9 +652,11 @@ footer {
     h2 {
         font-size: 1.4rem;
     }
+
     .header-bottom {
         height: 60vh;
     }
+
     .banner-text {
         font-size: 1.1rem;
         text-align: center;
@@ -652,7 +667,7 @@ footer {
         width: auto;
     }
 
-    #connect-button{
+    #connect-button {
         bottom: 50px;
         font-size: 1rem;
         width: 80px;
@@ -703,7 +718,7 @@ footer {
 
 
 @media only screen and (max-width: 275px) {
-   
+
     p {
         font-size: 0.5rem;
     }
@@ -713,7 +728,7 @@ footer {
         height: auto;
     }
 
-    
+
 
     #about-me-photo {
         width: 80vw;

@@ -27,7 +27,7 @@ projects.forEach((project) => {
 
   //project tile paragraph
   paragraph.classList.add("project-description");
-  paragraph.textContent = project.description;
+  paragraph.textContent = project.description.slice(0, 100);
 
   //button
   button.textContent = "View Project";
